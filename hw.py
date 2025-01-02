@@ -1,4 +1,5 @@
-a="how are you taamir"
+print("enter a sentens which has only 14 letterhow nare you taamir  it will breah each word")
+a=str(input(""))
 q=a[0:3]
 print (q)
 b=a[4:7]
