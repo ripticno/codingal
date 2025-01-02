@@ -1,4 +1,4 @@
-print("enter a sentens which has only 14 letterhow nare you taamir  it will breah each word")
+print("enter a sentens which has only 14 letter it will breah each word")
 a=str(input(""))
 q=a[0:3]
 print (q)
