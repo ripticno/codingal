@@ -10,4 +10,4 @@ elif unit<=100 and unit>1:
     print()
 else:
     resultd=100*5+(unit-100)*8+(unit-300)*10
-    print("you have to pay $", resultd)
+
