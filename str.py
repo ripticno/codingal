@@ -1,0 +1,24 @@
+import turtle
+turtle.Screen().bgcolor("red")
+turtle.Screen().setup(300,400)
+a=turtle.Turtle()
+a.speed(1)
+num_side=3
+angle=180/num_side
+side_lenth=100
+a.fd(100)
+a.lt(120)
+a.fd(100)
+a.lt(120)
+a.fd(100)
+a.penup()
+a.rt(150)
+a.fd(50)
+a.pendown()
+a.rt(90)
+a.fd(100)
+a.rt(120)
+a.fd(100)
+a.rt(120)
+a.fd(100)
+turtle.done()
