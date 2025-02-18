@@ -6,5 +6,5 @@ def by3(number):
     else:
         return False
 a=int(input("enter a number to chick if it is cube or not "))
-print(by3(a))
+print(by3(a))bh
     
