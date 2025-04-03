@@ -1,10 +1,4 @@
-print("prime's code is 1123")
-print("ice pop's code is 3454")
-print("chips,s code is 3246")
-scan=str(input("enter which product would you want "))
-if scan==1123:
-    print("the prize of the prime is 6 $")
-elif scan==3454:
-    print("the prize of the ice pop is 4 $")
-elif scan==3246:
-    print("the prize of the chips is 10 $")
+product_storage={'prime':'$6','chips':'$2','toys':'$50','books':'$10','gum':'$3','chocolets':'$5'}
+print('we have prime, chips, toys, books, gum, chocolates')
+user_input=str(input(" welcome to food product limited enter the name of the food of your choise "))
+print(product_storage.get(user_input,'not found'))
