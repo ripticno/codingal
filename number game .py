@@ -4,7 +4,7 @@ number=str(random.randint(0,x))
 player=True
 attempt=0
 while player:
-    guss=str(input("enter your numder to guss the right number from 0 to 7 "))
+    guss=str(input("enter your numder to guss  "))
     attempt+=1
     if guss==number:
         print('you won the game')
