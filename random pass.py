@@ -8,5 +8,4 @@ while i<number_of_letter_in_password:
     maker=random.choice(possible)
     password.append(maker)
     i+=1 
-print(password)
-
+print("".join(password))
